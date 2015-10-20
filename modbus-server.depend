@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1441276850 source:d:\cpp source\modbus-server\modbus-data.c
+	<stdlib.h>
+	<stdint.h>
+	"stdint.h"
+	<string.h>
+	<assert.h>
+
+1440403480 source:d:\cpp source\modbus-server\modbus-rtu.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<fcntl.h>
+	<string.h>
+	<unistd.h>
+	<assert.h>
+	"modbus-private.h"
+	"modbus-rtu.h"
+	"modbus-rtu-private.h"
+	<sys/ioctl.h>
+	<linux/serial.h>
+
+1440403480 d:\cpp source\modbus-server\modbus-private.h
+	<stdint.h>
+	<sys/time.h>
+	"stdint.h"
+	<time.h>
+	<sys/types.h>
+	"config.h"
+	"modbus.h"
+
+1441278209 d:\cpp source\modbus-server\config.h
+
+1441278729 d:\cpp source\modbus-server\modbus.h
+	<sys/param.h>
+	<stdint.h>
+	<sys/time.h>
+	"stdint.h"
+	<time.h>
+	"modbus-version.h"
+	"modbus-tcp.h"
+	"modbus-rtu.h"
+
+1440403480 d:\cpp source\modbus-server\modbus-version.h
+
+1440403480 d:\cpp source\modbus-server\modbus-tcp.h
+	"modbus.h"
+	<winsock2.h>
+
+1440403480 d:\cpp source\modbus-server\modbus-rtu.h
+	"modbus.h"
+
+1440403480 d:\cpp source\modbus-server\modbus-rtu-private.h
+	<stdint.h>
+	"stdint.h"
+	<windows.h>
+	<termios.h>
+
+1440403480 source:d:\cpp source\modbus-server\modbus-tcp.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+	<sys/types.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in_systm.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netinet/tcp.h>
+	<arpa/inet.h>
+	<poll.h>
+	<netdb.h>
+	"modbus-private.h"
+	"modbus-tcp.h"
+	"modbus-tcp-private.h"
+
+1440403480 d:\cpp source\modbus-server\modbus-tcp-private.h
+
+1441173559 source:d:\cpp source\modbus-server\modbus.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	<limits.h>
+	<time.h>
+	"config.h"
+	"modbus.h"
+	"modbus-private.h"
+
+1444717525 source:d:\cpp source\modbus-server\unit-test-server.c
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+	"modbus.h"
+	"unit-test.h"
+
+1442923143 d:\cpp source\modbus-server\unit-test.h
+	<inttypes.h>
+	<stdint.h>
+	"stdint.h"
+
+1441277962 source:d:\cpp source\modbus-server\showdata.c
+	<stdio.h>
+	"modbus.h"
+	"unit-test.h"
+
